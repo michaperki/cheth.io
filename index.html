@@ -1,13 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cheth - Bet on Your Chess Skills</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-	  <h1>test</h1>
+    <div class="landing-container">
+      <div class="gif-background">
+        <img
+          src="assets/background.gif"
+          alt="Chess Game"
+          class="background-gif"
+        />
+      </div>
+      <div class="content">
+        <h1>Welcome to Cheth</h1>
+        <p>
+          Bet on your chess skills. Connect your Metamask wallet and Lichess
+          account to play chess games with real wagers.
+        </p>
+        <button class="cta-button">Get Started</button>
+      </div>
+    </div>
+    <div class="main-content">
+      <section class="how-it-works">
+        <h2>How It Works</h2>
+        <div class="steps">
+          <div class="step">
+            <h3>1. Connect</h3>
+            <p>Link your Metamask wallet and Lichess account to get started.</p>
+          </div>
+          <div class="step">
+            <h3>2. Play</h3>
+            <p>
+              Join a game, and we’ll deploy a smart contract on the Ethereum
+              blockchain.
+            </p>
+          </div>
+          <div class="step">
+            <h3>3. Deposit</h3>
+            <p>Both players deposit their funds into the contract.</p>
+          </div>
+          <div class="step">
+            <h3>4. Battle</h3>
+            <p>The game is created on Lichess, and you can start playing.</p>
+          </div>
+          <div class="step">
+            <h3>5. Report</h3>
+            <p>
+              After the game, report the result. Funds are distributed to the
+              winner or returned in case of a draw.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="features">
+        <h2>Features</h2>
+        <ul>
+          <li>Secure transactions with Ethereum blockchain</li>
+          <li>Low transaction costs with zkstate channels</li>
+          <li>Seamless integration with Lichess</li>
+          <li>Fair play and transparent results</li>
+        </ul>
+      </section>
+      <section class="cta">
+        <h2>Ready to Play?</h2>
+        <button class="cta-button">Join Now</button>
+      </section>
+    </div>
+    <script src="scripts.js"></script>
   </body>
 </html>
