@@ -47,13 +47,13 @@ html {
 
 .content h1 {
   font-size: 3em;
-  color: red;
+  color: white;
 }
 
 .content p {
   font-size: 1.5em;
   margin-top: 1em;
-  color: blue;
+  color: white;
 }
 
 .cta-button {
@@ -130,4 +130,53 @@ html {
 .cta h2 {
   font-size: 2em;
   margin-bottom: 1em;
+}
+
+.subscribe {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.subscribe h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+#subscribe-form {
+  display: inline-block;
+}
+
+#email {
+  padding: 0.5em;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 0.5em;
+}
+
+.socials {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.socials h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #0056b3;
 }
