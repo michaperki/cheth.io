@@ -74,7 +74,7 @@ const App = () => {
               variant="contained" 
               color="primary" 
               size="large" 
-              href="https://app.cheth.io" 
+              href="https://cheth-client.vercel.app/" 
               sx={{ mt: 2 }}
             >
               Start Playing Now
